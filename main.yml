@@ -1,0 +1,6 @@
+---
+- name: test a role
+  hosts: localhost
+  become: yes
+  roles:
+   - role_zabbix_agent
